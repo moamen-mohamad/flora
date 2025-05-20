@@ -34,8 +34,8 @@ nav {
 }
 
 nav .logo {
-    width: 68.65582275390625;
-    height: 55.99973678588867;
+    width: 68.65582275390625px;
+    height: 55.99973678588867px;
 }
 
 nav ul {
@@ -184,18 +184,14 @@ nav .bars {
     color: #22222280;
 }
 
-.howItWork .card:hover {
+.howItWork .card:hover h3,
+.howItWork .card:hover p {
     background-color: #025595;
+    color: #FFFFFF;
+}
 
-    h3,
-    p {
-        color: #FFFFFF;
-    }
-
-    svg path {
-        fill: #ffffff;
-
-    }
+.howItWork .card:hover svg path {
+    fill: #ffffff;
 }
 
 /* dreamHome styling */
@@ -389,10 +385,6 @@ footer .content {
     gap: 60px;
 }
 
-footer .content ul {
-    list-style: none;
-}
-
 footer .site {
     max-width: 352px;
 }
@@ -413,14 +405,20 @@ footer .content h3 {
     color: #222222;
 }
 
-footer li {
-    margin-bottom: 16px;
+footer .content .card .column {
+    display: flex;
+    flex-direction: column;
 }
 
 footer a {
+    margin-bottom: 16px;
     text-decoration: none;
     font-size: 16px;
     color: #222222;
+}
+
+footer .addres {
+    margin-bottom: 16px;
 }
 
 footer .socials {
@@ -491,7 +489,6 @@ footer .copyright .links a:nth-child(1) {
     .hero h1 {
         font-size: 35px;
         line-height: 46px;
-        font-size: 35px;
     }
 
     .hero .description {
