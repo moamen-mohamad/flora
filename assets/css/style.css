@@ -51,6 +51,11 @@ nav a {
     color: #222222;
 }
 
+nav a:hover {
+    color: #025595;
+    border-bottom: 2px solid #025595;
+}
+
 nav .login {
     width: 135px;
     padding: 13px 0;
