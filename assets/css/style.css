@@ -184,9 +184,12 @@ nav .bars {
     color: #22222280;
 }
 
+.howItWork .card:hover {
+    background-color: #025595;
+}
+
 .howItWork .card:hover h3,
 .howItWork .card:hover p {
-    background-color: #025595;
     color: #FFFFFF;
 }
 
